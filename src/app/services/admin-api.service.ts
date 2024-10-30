@@ -8,7 +8,7 @@ import { BehaviorSubject } from 'rxjs';
 export class AdminApiService {
 
   constructor(private httpclient: HttpClient) { }
-  server_url = "http://localhost:4000";
+  server_url = "https://angular-public-portal-be.onrender.com";
 
   // login admin
   adminAuthorization() {
